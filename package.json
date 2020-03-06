@@ -1,0 +1,23 @@
+{
+  "name": "node_complete",
+  "version": "1.0.0",
+  "description": "My first server <3",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whoismikeo/NodeCourse.git"
+  },
+  "author": "Miko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whoismikeo/NodeCourse/issues"
+  },
+  "homepage": "https://github.com/whoismikeo/NodeCourse#readme",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

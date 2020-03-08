@@ -9,7 +9,7 @@ const requestHandler = (req, res) => {
         res.write('<head><title>Enter Message</title></head>');
         res.write('<body><h1>Howdy, Motherfuckers!</h1><form action="/message" method="POST"><input type="text" name="message"><button type="submit">Send</button></form></body>');
         res.write('</html');
-        return res.end();
+        return res.end();qw
     }
     if (url === '/message' && method === 'POST') {
         const body = [];
